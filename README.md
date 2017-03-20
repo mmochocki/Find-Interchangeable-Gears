@@ -1,6 +1,6 @@
 'Find-Interchangeable-Gears'
 
-Prosty program konsolowy mający za zadanie ułatwić szukanie odpowiednich KÓŁ ZMIANOWYCH do maszyn, tak aby ich praca odpowiadała naszym potrzebą. Głównym celem było znalezienie takich kół zmianowych, aby fraz w maszynie do produkcji kół zębatych obracał się z odpowiednią szybkością, aby uzyskać potem koło zębate o porządanych ilościach zębów.
+Prosty program konsolowy mający za zadanie ułatwić szukanie odpowiednich KÓŁ ZMIANOWYCH do maszyn, tak aby ich praca odpowiadała naszym potrzebą. Głównym celem było znalezienie takich kół zmianowych, aby frez w maszynie do produkcji kół zębatych obracał się z odpowiednią szybkością, aby uzyskać potem koło zębate o porządanych ilościach zębów.
 
 Poniższy obraz przedstawia zestaw wybranych kół zmianowych i obrazuje problem:
 http://i.imgur.com/SBoIKCC.jpg
