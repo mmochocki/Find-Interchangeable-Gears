@@ -14,9 +14,7 @@ long double stopnie;
 long double stopniePlus;
 long double modul;
 long double parametr = 7.9577;
-long double wynikAngle;
-long double wynikAnglePlus;
-long double angleAcceptable;
+
 
 void oblicz2(){
 
