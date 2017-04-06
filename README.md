@@ -1,14 +1,12 @@
 'Find-Interchangeable-Gears'
 
-Program konsolowy mający za zadanie ułatwić szukanie odpowiednich KÓŁ ZMIANOWYCH do maszyn, tak aby ich praca odpowiadała naszym potrzebą. Głównym celem było znalezienie takich kół zmianowych, aby frez w maszynie do produkcji kół zębatych obracał się z odpowiednią szybkością, aby uzyskać potem koło zębate o porządanych ilościach zębów.
+A console program designed to make it easier to find the right sprocket for your machines so that they match your needs. The main objective was to find such sprockets so that the gearmotor cutter rotates at the right speed to obtain the toothed gear with the desired amount of cog.
 
-Poniższy obraz przedstawia zestaw wybranych kół zmianowych i obrazuje problem:
-http://i.imgur.com/SBoIKCC.jpg
+The following image shows a set of selected shift wheels and illustrates the problem: http://i.imgur.com/SBoIKCC.jpg
 
-Znajdują się tutaj dwie wersje programu:
+There are two versions of the program:
 
-- main.cpp - program do zwykłych kół zębatych
-- angle.cpp - program do kół zębatych uwzględniający ich nachylenie pod odpowiednim kątem
+- Main.cpp - program for ordinary gears
+- Angle.cpp - gear program taking into account their slope at the right angle
 
-W obu programach uwzględnione są parametry maszyny, ich moduł, a na ich podstawie dobierana jest ilość kół zmianowych.
-Program sprawdza odpowiednim algorytmem wszystkie kobinacje posiadanych kół zmianowych i dopasowuje je wyświetlając wynik w konsoli.
+In both programs the parameters of the machine, their module, are taken into account, and the number of sprocket is determined on them. The program checks the correct algorithm for all the variants of the sprocket and adjusts them by displaying the result in the console.
