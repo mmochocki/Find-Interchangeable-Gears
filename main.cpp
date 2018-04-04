@@ -36,7 +36,9 @@ for (int i = 0; i < iloscKol; i++){
 
 
 void oblicz4(){
-    
+
+
+int licznik4 = 1;
 for (int i = 0; i < iloscKol; i++){
         for (int j = 0; j < iloscKol; j++){
                 for (int k = 0; k < iloscKol; k++){
@@ -47,8 +49,17 @@ for (int i = 0; i < iloscKol; i++){
                                 {
                                     cout << mojeKola[i] << " / " << mojeKola[j] << " | ";
                                     cout << mojeKola[k] << " / " << mojeKola[l] << endl;
+                                            if (licznik4 == 10)
+                                                                    {
+                                                                        cout << endl << "Z bledem w ilosci zebow = " << blad << endl;
+                                                                        cout << "Wyswietlono 10 pozycji." << endl;
+                                                                        cout << "Wcisnij ENTER aby wyswietlic kolejne." << endl << endl;
+                                                                        licznik4 = 0;
+                                                                        system("pause");
 
-                                        
+                                                                    }
+                                                                    licznik4++;
+
                                 }
                             }
 
@@ -65,7 +76,7 @@ for (int i = 0; i < iloscKol; i++){
 
 void oblicz6(){
 
-    int licznik = 1;
+    int licznik6 = 1;
     for (int i = 0; i < iloscKol; i++){
             for (int j = 0; j < iloscKol; j++){
                     for (int k = 0; k < iloscKol; k++){
@@ -80,16 +91,16 @@ void oblicz6(){
                                                         cout << mojeKola[k] << " | " << mojeKola[m] << "/";
                                                         cout << mojeKola[n] << " | " << mojeKola[l] << endl;
 
-                                                            if (licznik == 10)
+                                                            if (licznik6 == 10)
                                                                     {
                                                                         cout << endl << "Z bledem w ilosci zebow = " << blad << endl;
                                                                         cout << "Wyswietlono 10 pozycji." << endl;
                                                                         cout << "Wcisnij ENTER aby wyswietlic kolejne." << endl << endl;
-                                                                        licznik = 0;
+                                                                        licznik6 = 0;
                                                                         system("pause");
 
                                                                     }
-                                                                    licznik++;
+                                                                    licznik6++;
                                                     }
                                     }
 
