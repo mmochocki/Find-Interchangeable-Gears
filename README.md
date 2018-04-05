@@ -6,7 +6,7 @@ The following image shows a set of selected shift wheels and illustrates the pro
 
 There are two versions of the program:
 
-- Main.cpp - program for ordinary gears
+- Standard.cpp - program for ordinary gears
 - Angle.cpp - gear program taking into account their slope at the right angle
 
 In both programs the parameters of the machine, their module, are taken into account, and the number of sprocket is determined on them. The program checks the correct algorithm for all the variants of the sprocket and adjusts them by displaying the result in the console.
