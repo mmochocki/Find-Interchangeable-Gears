@@ -4,10 +4,10 @@
 #include <windows.h>
 
 using namespace std;
-const double mojeKola[39] = {36, 48, 48, 48, 48, 72, 109, 68, 68, 46, 40, 40, 40, 86, 86, 74, 80, 71, 28, 50, 30, 62, 44, 52, 95, 39, 103, 56, 60, 60, 60, 60, 100, 42, 84, 47, 73, 83, 38};
+const double mojeKola[39] = {36, 48, 48, 48, 48, 72, 109, 68, 68, 46, 40, 40, 40, 86, 86, 74, 80, 71, 28, 50, 30, 62, 44, 52, 95, 39, 103, 56, 60, 60, 60, 60, 100, 42, 84, 47, 73, 83, 38, 67};
 int iloscKol = 39;
 int iloscZebow;
-double blad = 0.000001;
+double blad = 0.00001;
 
 long double stopnie;
 long double stopniePlus;
