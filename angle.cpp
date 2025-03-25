@@ -4,6 +4,7 @@
 #include <windows.h>
 
 using namespace std;
+// check git chain connection
 const double mojeKola[43] = {28,30,33,36,38,39,40,40,40,42,44,46,47,48,48,48,48,50,52,56,60,60,60,60,62,67,68,68,70,71,72,73,74,80,83,84,86,86,95,100,103,109};
 int iloscKol = 43;
 int iloscZebow;
